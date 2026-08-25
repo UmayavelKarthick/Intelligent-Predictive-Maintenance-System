@@ -1,0 +1,10 @@
+[project]
+name = "intelligent-predictive-maintenance-system"
+version = "0.1.0"
+description = "Machine failure prediction and maintenance decision support using AI4I 2020 data."
+requires-python = ">=3.12,<3.13"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
